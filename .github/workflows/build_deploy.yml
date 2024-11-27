@@ -22,10 +22,10 @@ jobs:
     needs: build_unit_test
     environment:
       name: QA
-      url: https://gc-bmicalculator-ga-staging.azurewebsites.net                                 
+      url: https://bmi-ca1-ks-g7azhrfvf8gkg8a9.germanywestcentral-01.azurewebsites.net                                 
     runs-on: windows-latest
     env:
-      AZURE_WEBAPP_NAME: gc-bmicalculator-ga            # set this to your application's name
+      AZURE_WEBAPP_NAME: BMI-CA1-KS            # set this to your application's name
       AZURE_WEBAPP_PACKAGE_PATH: 'publish'              # set this to the path to your web app project
     steps:
     - uses: actions/checkout@v4
