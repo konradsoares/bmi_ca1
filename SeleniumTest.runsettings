@@ -2,6 +2,6 @@
 <RunSettings>    
   <!-- Parameters used by tests at runtime -->  
   <TestRunParameters>  
-    <Parameter name="webAppUri" value="https://gc-bmicalculator-ga-staging.azurewebsites.net/" />  
+    <Parameter name="webAppUri" value="https://bmi-ca1-ks-g7azhrfvf8gkg8a9.germanywestcentral-01.azurewebsites.net/" />  
   </TestRunParameters>  
 </RunSettings> 
