@@ -57,7 +57,7 @@ jobs:
           package: .
       # Run Selenium tests
       - name: Run Selenium tests
-        run: dotnet test publish/myapp/SeleniumTest.dll /Settings:SeleniumTest.runsettings --logger:"trx;LogFileName=selenium.trx"
+        run: dotnet test publish\myapp\SeleniumTest.dll \Settings:SeleniumTest.runsettings --logger:"trx;LogFileName=selenium.trx"
     
       # Upload results of selenium tests
       - uses: actions/upload-artifact@v4
